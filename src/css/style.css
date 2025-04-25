@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: #fdfdfd;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #fff;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #660000;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.hero {
+  background-image: url("../assets/imgs/vinhedo.png");
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  padding: 20px;
+  position: relative;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+
+.hero h1,
+.hero .btn {
+  z-index: 2;
+}
+
+.btn {
+  background-color: #8b0000;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.sobre {
+  padding: 60px 40px;
+  background-color: #fafafa;
+}
+
+.sobre .container {
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+}
+
+.sobre h2 {
+  font-size: 28px;
+  color: #660000;
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: #eee;
+  padding: 20px;
+  text-align: center;
+  color: #555;
+  margin-top: 60px;
+}
