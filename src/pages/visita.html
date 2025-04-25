@@ -7,18 +7,18 @@
     <meta name="description" content="Página da Vinheria Agnello" />
     <meta name="keywords" content="vinhos, vinheria, vinho brasileiro" />
     <link rel="stylesheet" href="../css/style.css" />
-    <link rel="stylesheet" href="../css/visitas.css">
+    <link rel="stylesheet" href="../css/visitas.css" />
   </head>
   <body>
     <header>
       <div class="logo">
         <a href="/index.html">
           <img
-          src="../assets/imgs/logo.png"
-          alt="Logo Vinheria Agnello"
-          class="logo-img"
-        />
-      </a>
+            src="../assets/imgs/logo.png"
+            alt="Logo Vinheria Agnello"
+            class="logo-img"
+          />
+        </a>
       </div>
       <nav>
         <ul>
@@ -32,49 +32,54 @@
     </header>
 
     <main>
-      <div id = "local">
-      <section class="cartao">
-        <h1>Agendamento</h1>
-        <p>Preencha os campos abaixo para marcar uma visita</p>
-        <form action="">
+      <div id="local">
+        <section class="cartao">
+          <h1>Agendamento</h1>
+          <p>Preencha os campos abaixo para marcar uma visita</p>
+          <form action="">
+            <h4>Selecione uma data e um horário:</h4>
+            <div class="linha-data-hora">
+              <input type="date" id="data" name="data" required />
+              <input type="time" id="tempo" name="tempo" required />
+            </div>
 
-        <h4>Selecione uma data e um Horario:</h4>
-        <div id="data_hora">
-        <input type="date" id="data" name="data">
-        <input type="time" id="tempo" name="tempo">
+            <h4>Informações para contato:</h4>
+            <input
+              type="text"
+              name="nome_completo"
+              placeholder="Nome Completo"
+              required
+            />
+            <input type="email" name="email" placeholder="E-mail" required />
+            <input type="tel" name="telefone" placeholder="Telefone" required />
+
+            <h4>Preferência de contato:</h4>
+            <div class="radio-opcoes">
+              <label
+                ><input type="radio" name="contato" value="WhatsApp" required />
+                WhatsApp</label
+              >
+              <label
+                ><input type="radio" name="contato" value="email" />
+                E-mail</label
+              >
+            </div>
+
+            <h4>Observações (opcional):</h4>
+            <textarea
+              name="obs"
+              placeholder="Escreva aqui se houver alguma necessidade específica"
+            ></textarea>
+
+            <p>
+              Você receberá uma mensagem de confirmação assim que o agendamento
+              for concluído.
+            </p>
+
+            <button type="submit" class="botao">Agendar sua visita</button>
+          </form>
+        </section>
       </div>
-
-        <h4>Informações para contato:</h4>
-
-        <label for="nome_completo"></label>
-        <input type="text" name="nome_completo" placeholder="Nome Completo">
-
-        <label for="email"></label>
-        <input type="email" name="email" placeholder="E-mail">
-
-        <label for="telefone"></label>
-        <input type="tel" name="telefone" placeholder="Telefone">
-
-        <h4>Preferencia de contato:</h4>
-
-        <span>WhatsApp</span>
-        <input type="radio" name="contato" value="WhatsApp">
-
-        <span>E-mail</span>
-        <input type="radio" name="contato" value="E-mail">
-
-        <h4>Observações (opcional):</h4>
-
-        <label for="obs"></label>
-        <textarea name="obs" id="obs" style="width: 550px; height: 100px;" placeholder="Escreva aqui se houver alguma necessidade específica"></textarea>
-
-        <p>Você receberá uma mensagem de confirmação assim que o agendamento for concluido</p>
-
-        <button type="submit" class="botao">Agendar sua visita</button>
-
-        </form>
-      </section>
-    </div>
     </main>
 
     <footer>
