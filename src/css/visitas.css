@@ -1,0 +1,68 @@
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    background-color: #f0f2f5;
+    background-image: url('../assets/imgs/visita/vinheria.jpg');
+    background-size: cover;
+    background-position: center; 
+    image-rendering: auto; 
+    backdrop-filter: blur(1px); 
+    }
+.cartao {
+    background: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 900px;
+    max-height: 100vh;
+  }
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+.botao {
+    background-color: #eb4343e7;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 39%;
+    margin-top: 30px ;
+  }
+  
+.botao:hover {
+    background-color: #ff0800;
+  }
+
+h1{
+    margin-bottom: 15px;
+    margin-top: 0px;
+    text-align: center;
+}
+
+.cartao h1 {
+    border-bottom: 3px solid black;
+    padding-bottom: 10px;
+    margin-bottom: 20px; 
+    text-align: center; 
+}
+
+p {
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.cartao h4 {
+    margin-bottom: 5px;
+}
