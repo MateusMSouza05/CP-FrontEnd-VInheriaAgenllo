@@ -3,10 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Equipe</title>
+    <title>Agendamento Online - Vinheria Agnello</title>
     <meta name="description" content="Página da Vinheria Agnello" />
     <meta name="keywords" content="vinhos, vinheria, vinho brasileiro" />
     <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/visita.css">
   </head>
   <body>
     <header>
@@ -31,21 +32,19 @@
     </header>
 
     <main>
-      <div>
+      <div id = "local">
       <section class="cartao">
         <h1>Agendamento</h1>
         <p>Preencha os campos abaixo para marcar uma visita</p>
         <form action="">
 
         <h4>Selecione uma data e um Horario:</h4>
-
-        <label for="data"></label>
+        <div id="data_hora">
         <input type="date" id="data" name="data">
+        <input type="time" id="tempo" name="tempo">
+      </div>
 
-        <label for="horario"></label>
-        <input type="time" name="tempo" id="tempo">
-
-        <h4>Informações para contato:</h2>
+        <h4>Informações para contato:</h4>
 
         <label for="nome_completo"></label>
         <input type="text" name="nome_completo" placeholder="Nome Completo">
@@ -56,7 +55,7 @@
         <label for="telefone"></label>
         <input type="tel" name="telefone" placeholder="Telefone">
 
-        <h4>Prefencia de contato:</h4>
+        <h4>Preferencia de contato:</h4>
 
         <span>WhatsApp</span>
         <input type="radio" name="contato" value="WhatsApp">
@@ -65,11 +64,13 @@
         <input type="radio" name="contato" value="E-mail">
 
         <h4>Observações (opcional):</h4>
+
         <label for="obs"></label>
-        <textarea name="obs" id="obs" style="width: 200px; height: 100px;" placeholder="Escreva aqui se houver alguma necessidade específica"></textarea>
+        <textarea name="obs" id="obs" style="width: 550px; height: 100px;" placeholder="Escreva aqui se houver alguma necessidade específica"></textarea>
+
         <p>Você receberá uma mensagem de confirmação assim que o agendamento for concluido</p>
 
-        <button type="submit">Agendar sua visita</button>
+        <button type="submit" class="botao">Agendar sua visita</button>
 
         </form>
       </section>
