@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Equipe</title>
+    <meta name="description" content="Página da Vinheria Agnello" />
+    <meta name="keywords" content="vinhos, vinheria, vinho brasileiro" />
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="/index.html">
+          <img
+          src="../assets/imgs/logo.png"
+          alt="Logo Vinheria Agnello"
+          class="logo-img"
+        />
+      </a>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="../../index.html">Início</a></li>
+          <li><a href="produtos.html">Catálogo</a></li>
+          <li><a href="sobrenos.html">Sobre Nós</a></li>
+          <li><a href="cadastro.html">Cadastro</a></li>
+          <li><a href="visita.html">Agende sua visita</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div>
+      <section class="cartao">
+        <h1>Agendamento</h1>
+        <p>Preencha os campos abaixo para marcar uma visita</p>
+        <form action="">
+
+        <h4>Selecione uma data e um Horario:</h4>
+
+        <label for="data"></label>
+        <input type="date" id="data" name="data">
+
+        <label for="horario"></label>
+        <input type="time" name="tempo" id="tempo">
+
+        <h4>Informações para contato:</h2>
+
+        <label for="nome_completo"></label>
+        <input type="text" name="nome_completo" placeholder="Nome Completo">
+
+        <label for="email"></label>
+        <input type="email" name="email" placeholder="E-mail">
+
+        <label for="telefone"></label>
+        <input type="tel" name="telefone" placeholder="Telefone">
+
+        <h4>Prefencia de contato:</h4>
+
+        <span>WhatsApp</span>
+        <input type="radio" name="contato" value="WhatsApp">
+
+        <span>E-mail</span>
+        <input type="radio" name="contato" value="E-mail">
+
+        <h4>Observações (opcional):</h4>
+        <label for="obs"></label>
+        <textarea name="obs" id="obs" style="width: 200px; height: 100px;" placeholder="Escreva aqui se houver alguma necessidade específica"></textarea>
+        <p>Você receberá uma mensagem de confirmação assim que o agendamento for concluido</p>
+
+        <button type="submit">Agendar sua visita</button>
+
+        </form>
+      </section>
+    </div>
+    </main>
+
+    <footer>
+      <p>© Vinheria Agnello - Todos os direitos reservados</p>
+    </footer>
+  </body>
+</html>
