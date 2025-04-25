@@ -24,4 +24,4 @@ Este site foi desenvolvido com base no caso fictício da Vinheria Agnello, uma e
 
 ## 🌐 GitHub Pages
 
-🔗 [Link para o site publicado]()
+🔗 [Link para o site publicado](https://mateusmsouza05.github.io/CP-FrontEnd-VInheriaAgenllo/)
