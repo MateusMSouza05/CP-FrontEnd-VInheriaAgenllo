@@ -4,7 +4,7 @@ main{
     align-items: center;
     min-height: 80vh;
     background-color: #f0f2f5;
-    background-image: url('../assets/imgs/visita/vinheria.jpg');
+    background-image: url('../assets/imgs/vinheria.jpg');
     background-size: cover;
     background-position: center; 
     image-rendering: auto; 
