@@ -1,3 +1,7 @@
+main {
+    padding: 0 40px;
+}
+
 .catalogoVinhos {
     display: flex;
     flex-wrap: wrap;
@@ -20,6 +24,9 @@
     padding: 16px;
     text-align: center;
     transition: transform 0.2s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
   
   .cardVinho:hover {
@@ -36,6 +43,28 @@
   .cardVinho h3 {
     font-size: 1.1rem;
     margin: 12px 0 8px;
+  }
+
+  span {
+    display: block;
+    margin-bottom: 16px;
+  }
+
+  .btn-comprar {
+    display: inline-block;
+    background-color: #900;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: background-color 0.2s ease;
+    margin-top: auto;
+  }
+  
+  .btn-comprar:hover {
+    background-color: #fff;
+    color: #700;
   }
   
 
