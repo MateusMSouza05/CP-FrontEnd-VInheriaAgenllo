@@ -18,8 +18,8 @@ Este site foi desenvolvido com base no caso fictício da Vinheria Agnello, uma e
 
 - Matheus Xavier
 - Mateus Macedo
-- Gustavo Cavalcante
-- Tomás
+- Gustavo Cavalcanti
+- Tomás Braga
 - Felipe Riofrio
 
 ## 🌐 GitHub Pages
