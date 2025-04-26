@@ -9,9 +9,9 @@ Este site foi desenvolvido com base no caso fictício da Vinheria Agnello, uma e
 ## 🧱 Estrutura de Páginas
 
 - `index.html`: página inicial com hero e apresentação da vinheria
-- `catalogo.html`: catálogo de vinhos
+- `produtos.html`: catálogo de vinhos
 - `visita.html`: agendamento de visitas
-- `sobre.html`: mais informações sobre a história da empresa
+- `sobrenos.html`: mais informações sobre a história da empresa
 - `cadastro.html`: formulário de cadastro
 
 ## 👥 Integrantes
