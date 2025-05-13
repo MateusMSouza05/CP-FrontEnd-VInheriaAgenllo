@@ -29,22 +29,6 @@ textarea {
   border-radius: 8px;
 }
 
-.botao {
-  background-color: #eb4343e7;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-  margin-left: 39%;
-  margin-top: 30px;
-}
-
-.botao:hover {
-  background-color: #ff0800;
-}
-
 h1 {
   margin-bottom: 15px;
   margin-top: 0px;
@@ -102,11 +86,5 @@ textarea {
 @media (max-width: 768px) {
   .linha-data-hora {
     flex-direction: column;
-  }
-
-  .botao {
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
   }
 }
