@@ -40,3 +40,21 @@ h2::after {
 .banner {
   animation: fadeIn 1s ease-in-out;
 }
+
+a {
+  transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+a:hover {
+  color: rgb(210, 92, 92);
+  text-decoration: underline;
+}
+
+.btn-comprar:hover {
+  transform: scale(1.1);
+}
+
+.logo-img:hover {
+  transform: rotate(10deg);
+  transition: transform 0.3s ease;
+}
