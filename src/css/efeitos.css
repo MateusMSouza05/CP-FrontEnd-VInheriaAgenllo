@@ -36,3 +36,7 @@ h2::after {
     transform: translateY(0);
   }
 }
+
+.banner {
+  animation: fadeIn 1s ease-in-out;
+}
