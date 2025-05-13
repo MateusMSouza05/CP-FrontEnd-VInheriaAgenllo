@@ -25,3 +25,11 @@ Este site foi desenvolvido com base no caso fictício da Vinheria Agnello, uma e
 ## 🌐 GitHub Pages
 
 🔗 [Link para o site publicado](https://mateusmsouza05.github.io/CP-FrontEnd-VInheriaAgenllo/)
+
+## Efeitos Visuais
+
+- **Pseudo-classes**: Utilizamos `:hover` em botões e links, `:focus` em inputs e `:nth-child` em listas para estilização dinâmica.
+- **Pseudo-elementos**: Adicionamos `::before` e `::after` em títulos para decorações visuais.
+- **Animações**: Criamos uma animação de entrada suave para o banner usando `@keyframes fadeIn`.
+- **Transições**: Aplicamos transições suaves em botões e links para melhorar a experiência do usuário.
+- **Transformações**: Usamos `scale()` em botões e `rotate()` em imagens para efeitos interativos.
