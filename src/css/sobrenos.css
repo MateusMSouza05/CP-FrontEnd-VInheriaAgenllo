@@ -88,3 +88,12 @@ main {
   color: #754a3c;
   text-align: center;
 }
+
+.btn-comprar:hover {
+  transform: scale(1.1);
+}
+
+.logo-img:hover {
+  transform: rotate(10deg);
+  transition: transform 0.3s ease;
+}
