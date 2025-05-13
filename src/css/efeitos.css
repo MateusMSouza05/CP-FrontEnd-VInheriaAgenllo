@@ -44,3 +44,8 @@ h2::after {
 a {
   transition: color 0.3s ease, text-decoration 0.3s ease;
 }
+
+a:hover {
+  color: rgb(210, 92, 92);
+  text-decoration: underline;
+}
