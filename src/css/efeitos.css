@@ -19,3 +19,9 @@ h2::before {
   color: rgb(185, 91, 91);
   font-size: 1.5rem;
 }
+
+h2::after {
+  content: " ✨";
+  color: rgb(214, 99, 99);
+  font-size: 1.5rem;
+}
