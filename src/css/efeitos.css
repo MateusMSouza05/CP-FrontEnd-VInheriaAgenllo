@@ -13,3 +13,9 @@ input:focus {
 nav ul li:nth-child(odd) {
   background-color: #f9f9f9;
 }
+
+h2::before {
+  content: "🍷 ";
+  color: rgb(185, 91, 91);
+  font-size: 1.5rem;
+}
